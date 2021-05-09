@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://heigenji/./src/pages/404.tsx"],"names":[],"mappings":"8HAWA,UANqB,WACnB,OACE","file":"component---src-pages-404-tsx-ff89c6872bb664c7947b.js","sourcesContent":["import * as React from \"react\"\n\n\n\n// markup\nconst NotFoundPage = () => {\n  return (\n    <h1>404</h1>\n  )\n}\n\nexport default NotFoundPage\n"],"sourceRoot":""}

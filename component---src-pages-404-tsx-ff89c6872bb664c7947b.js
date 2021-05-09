@@ -1,0 +1,2 @@
+(self.webpackChunkheigenji=self.webpackChunkheigenji||[]).push([[218],{9786:function(e,n,u){"use strict";u.r(n);var t=u(7294);n.default=function(){return t.createElement("h1",null,"404")}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-ff89c6872bb664c7947b.js.map
