@@ -1,0 +1,45 @@
+@import "../foundation/setting.scss";
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 10px 5%;
+  box-shadow: 0 8px 32px 0 rgba($black, 0.5);
+  backdrop-filter: blur(4px);
+  border-bottom: 1px solid rgba($black, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo {
+    display: block;
+    width: 40px;
+  }
+  &__list {
+    display: flex;
+  }
+  &__link {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: $white;
+    transition: 0.25s ease-in-out;
+    &:hover {
+      transform: scale(1.25);
+    }
+  }
+  &__item {
+    &:not(:first-child){
+      margin-left: 2em;
+    }
+  }
+  &:hover {
+    .header {
+      &__link {
+        color: $pink;
+      }
+    }
+  }
+}

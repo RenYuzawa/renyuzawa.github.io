@@ -1,0 +1,22 @@
+@import "../foundation/setting.scss";
+
+.gallerySlider {
+  margin-top: 40px;
+  &__figure {
+    height: 400px;
+    padding: 0 20px;
+    position: relative;
+    figcaption {
+      color: $pink;
+      background-color: $black;
+      position: absolute;
+      right: 60px;
+      bottom: 20px;
+      transform: skewX(-10deg);
+      font-size: 38px;
+      font-weight: bold;
+      padding: 0.25em 1em;
+    }
+
+  }
+}

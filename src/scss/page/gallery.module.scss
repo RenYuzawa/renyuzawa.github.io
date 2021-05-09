@@ -1,0 +1,11 @@
+@import "../foundation/setting.scss";
+
+.columns {
+  column-count: 3;
+  column-gap: 20px;
+  padding: 0 5%;
+  &__figure {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

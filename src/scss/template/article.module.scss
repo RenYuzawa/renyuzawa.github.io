@@ -1,0 +1,49 @@
+@import "../foundation/setting.scss";
+
+.contents {
+  padding: 5%;
+}
+.suggest {
+  margin-top: 120px;
+  &__title {
+    color: $white;
+    font-size: 32px;
+    font-weight: bold;
+  }
+}
+.article{
+  color: $white;
+  margin-top: -36px;
+  * {
+    margin-top: 1em;
+    line-height: 1.75;
+    letter-spacing: 0.1em;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 36px;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 32px;
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  h4 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  h5 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  h6 {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
